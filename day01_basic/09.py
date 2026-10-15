@@ -44,10 +44,44 @@
 # Write a Python program that calculates the sum of all odd numbers from 1 to 10.
 
 
-total = 0
+# total = 0
 
-for i in range(1, 11):
-    if i % 2 != 0:
-        total = total + i
+# for i in range(1, 11):
+#     if i % 2 != 0:
+#         total = total + i
 
-print("Sum of odd nunber is: ",total)
+# print("Sum of odd nunber is: ",total)
+
+
+# Write a program to find the number of even numbers between 1 and 20.
+
+# count = 0
+
+# for i in range(1, 21):
+#     if i % 2 == 0:
+#         count+= 1
+# print("Total number:",count)        
+
+
+# Write a program to calculate the sum of even numbers from 1 to 20.
+
+# total = 0
+
+# for i in range(1,21):
+#     if i % 2  == 0:
+#         total = total + i
+
+# print(total)
+
+
+# break
+# for i in range(1, 11):
+#     if i == 5:
+#         break
+#     print(i)
+
+# # continue
+# for i in range(1, 6):
+#     if i == 3:
+#         continue
+#     print(i)
