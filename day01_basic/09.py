@@ -34,9 +34,20 @@
 
 #  factorial 
 
-num = int(input("Enter the Number:"))
-fact = 1
+# num = int(input("Enter the Number:"))
+# fact = 1
 
-for i in range(1, num + 1):
-    fact = fact *i
-print("Factorial:",fact)    
+# for i in range(1, num + 1):
+#     fact = fact *i
+# print("Factorial:",fact)    
+
+# Write a Python program that calculates the sum of all odd numbers from 1 to 10.
+
+
+total = 0
+
+for i in range(1, 11):
+    if i % 2 != 0:
+        total = total + i
+
+print("Sum of odd nunber is: ",total)
