@@ -86,3 +86,13 @@
 # Write a Python program using a while loop to find both:
 # 1. The count of even numbers between 1 and 20.
 # 2. The sum of those even numbers.
+i = 1
+count = 0 
+total = 0
+while i <= 20:
+    if i % 2 == 0:
+        count = count + 1
+        total = total + i
+    i = i + 1
+print("no of Even Number: ", count)
+print("Sum of Even nuber: ", total)         
