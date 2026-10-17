@@ -64,13 +64,25 @@
             
 
 # Write a Python program using a while loop to calculate the sum of all odd numbers between 1 and 20.
-i = 1
-total = 0
-while i <=20:
-    if i % 2 != 0:
-        total = total + i
-    i = i + 1
-print("Sum of Odd number(1 and 20): ", total)        
+# i = 1
+# total = 0
+# while i <=20:
+#     if i % 2 != 0:
+#         total = total + i
+#     i = i + 1
+# print("Sum of Odd number(1 and 20): ", total)        
         
 
 # Write a Python program using a while loop to calculate the sum of numbers divisible by 3 between 1 and 30.
+# i = 1
+# total = 0
+# while i <= 30:
+#     if i % 3 == 0:
+#        total = total + i
+#     i = i + 1
+# print("Sum of number divisble by 3 (1 and 30):", total)       
+
+    
+# Write a Python program using a while loop to find both:
+# 1. The count of even numbers between 1 and 20.
+# 2. The sum of those even numbers.
