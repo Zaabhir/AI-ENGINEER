@@ -43,11 +43,22 @@
 
 # Write a Python program using a while loop to count how many odd numbers exist between 1 and 15.
 
+# i = 1
+# count = 0
+# while i <= 15:
+#     if i % 2 != 0:
+#         count = count + 1
+#     i = i + 1    
+# print("Total", count)  
+
+
+    #    Write a Python program to count how many numbers between 1 and 20 are divisible by both 3 and 5
+
 i = 1
 count = 0
-while i <= 15:
-    if i % 2 != 0:
-        count = count + 1
+while i <= 20:
+    if i % 3 == 0 and i % 5 == 0:
+        count = count +  1
     i = i + 1    
-print("Total", count)        
-       
+print("Total Number:", count)        
+            
