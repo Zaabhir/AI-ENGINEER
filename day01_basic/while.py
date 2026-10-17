@@ -54,11 +54,23 @@
 
     #    Write a Python program to count how many numbers between 1 and 20 are divisible by both 3 and 5
 
-i = 1
-count = 0
-while i <= 20:
-    if i % 3 == 0 and i % 5 == 0:
-        count = count +  1
-    i = i + 1    
-print("Total Number:", count)        
+# i = 1
+# count = 0
+# while i <= 20:
+#     if i % 3 == 0 and i % 5 == 0:
+#         count = count +  1
+#     i = i + 1    
+# print("Total Number:", count)        
             
+
+# Write a Python program using a while loop to calculate the sum of all odd numbers between 1 and 20.
+i = 1
+total = 0
+while i <=20:
+    if i % 2 != 0:
+        total = total + i
+    i = i + 1
+print("Sum of Odd number(1 and 20): ", total)        
+        
+
+# Write a Python program using a while loop to calculate the sum of numbers divisible by 3 between 1 and 30.
