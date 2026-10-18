@@ -107,9 +107,16 @@
 
 # Write a program using a while loop to print only even numbers from 20 down to 2
 
-i = 20
-while i >= 2:
-    if i % 2 == 0:
-       print(i)
-    i = i - 2     
+# i = 20
+# while i >= 2:
+#     if i % 2 == 0:
+#        print(i)
+#     i = i - 2     
     
+
+# Write a Python program that asks the user for a number and prints its multiplication table from 1 to 10.
+num = int(input("Enter number btw 1 and 10: "))
+i= 1
+while i <= 10:
+    print(num,"X",i, "=", num*i)
+    i = i + 1
