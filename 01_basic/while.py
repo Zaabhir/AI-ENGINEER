@@ -100,8 +100,16 @@
 
 # Write a Python program using a while loop to print the numbers from 20 down to 1.
 
+# i = 20
+# while i >= 1:
+#     print(i)
+#     i = i -1
+
+# Write a program using a while loop to print only even numbers from 20 down to 2
+
 i = 20
-while i >= 1:
-    print(i)
-    i = i -1
+while i >= 2:
+    if i % 2 == 0:
+       print(i)
+    i = i - 2     
     
