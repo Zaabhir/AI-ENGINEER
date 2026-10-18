@@ -115,8 +115,21 @@
     
 
 # Write a Python program that asks the user for a number and prints its multiplication table from 1 to 10.
-num = int(input("Enter number btw 1 and 10: "))
-i= 1
-while i <= 10:
-    print(num,"X",i, "=", num*i)
-    i = i + 1
+# num = int(input("Enter number btw 1 and 10: "))
+# i= 1
+# while i <= 10:
+#     print(num,"X",i, "=", num*i)
+#     i = i + 1
+
+
+# User se ek number input lo aur uske digits ka sum calculate karo.
+
+# num = int(input("Enter a number: "))
+# total = 0
+
+# while num > 0:
+#     digit = num % 10
+#     total = total + digit
+#     num = num // 10
+
+# print(total)
