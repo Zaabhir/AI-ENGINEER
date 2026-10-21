@@ -137,12 +137,28 @@
 
 # Write a program that takes a number from the user and reverses it.
 
-num = int(input("Enter a number: "))
-reverse = 0
+# num = int(input("Enter a number: "))
+# reverse = 0
+
+# while num > 0:
+#     digit = num % 10
+#     reverse = reverse * 10 + digit
+#     num = num // 10
+
+# print("Reverse:", reverse)
+
+# palindrome
+
+num = int(input("Enter the Number:"))
+original = num
+revrse = 0
 
 while num > 0:
     digit = num % 10
-    reverse = reverse * 10 + digit
+    revrse = revrse * 10 + digit
     num = num // 10
 
-print("Reverse:", reverse)
+if original == revrse:
+    print("Number Is Palindrome")
+else:
+    print("Number Is Not Palindrome")    
